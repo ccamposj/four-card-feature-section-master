@@ -1,0 +1,38 @@
+@media (min-width: 64em) {
+  .product-info {
+    max-width: 62.5rem;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    .product-info__description {
+      padding: 0 15rem;
+      grid-column: 1 / -1;
+      margin: 0;
+    }
+
+    .product-info__header {
+      font-size: 2rem;
+    }
+
+    .product-info--bold {
+      font-size: 2rem;
+    }
+
+    .grid-cyan {
+      grid-row: 2 / 4;
+      align-self: center;
+    }
+
+    .grid-blue {
+      grid-column: 3 / -1;
+      grid-row: 2 / 4;
+      align-self: center;
+    }
+
+    .grid-yellow {
+      grid-column: 2 / 3;
+    }
+  }
+}

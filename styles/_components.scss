@@ -1,0 +1,50 @@
+.product-info {
+  margin: 4.5rem 0;
+
+  .product-info__description {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .product-info__header {
+    font-size: $fs-700;
+    font-weight: $fw-regular;
+    color: $clr-gray-900;
+    margin-bottom: 1rem;
+  }
+
+  .product-info--bold {
+    font-weight: $fw-semi-bold;
+  }
+
+  .product-info__text {
+    font-size: 1rem;
+  }
+
+  .product-info__card {
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+  .product-info__card-header {
+    font-size: $fs-400;
+    color: $clr-gray-900;
+    margin-bottom: 0.5rem;
+  }
+
+  .product-info__card-text {
+    margin-bottom: 1.5rem;
+  }
+
+  .product-info__card-icon {
+    margin-left: auto;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+.attribution {
+  text-align: center;
+}
